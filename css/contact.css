@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');
+/*layout*/
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 4%;
+}
+
+/*navigation*/
+nav {
+  width: 500px;
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+.links a {
+  font-family: 'jaapokki', sans-serif;
+  line-height: 100%;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+  left: 28.5%;
+  padding-right: 7px;
+}
+
+/*header*/
+.name2 {
+  width: 81.2%;
+  height: 129px;
+  border: solid black 3px;
+  margin: 0 auto;
+  top: -51px;
+}
+
+.name2 h1  {
+  font-family: 'jaapokki', sans-serif;
+  font-size: 3.5em;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  position: absolute;
+  bottom: -16%;
+  left: 12%;
+}
+
+/*body*/
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-left: -1%;
+}
+
+.email {
+  margin-left: 8%;
+}
+
+.container p {
+  margin-left: 8%;
+}
+
+.email, .links {
+  font-family: 'Droid Serif', serif;
+}

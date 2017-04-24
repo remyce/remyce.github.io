@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'jaapokki';
+  src: url('fonts/jaapokki.eot');
+
+  src:
+  local('Jaapokki'),
+  local('Jaapokki'),
+  url('fonts/Jaapokki.otf')
+  format('opentype');
+
+  src:
+  local('jaapokki'),
+  local('jaapokki'),
+  url('fonts/jaapokki.ttf')
+  format('truetype');
+}
+
+/*rectangles*/
+.container{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.name {
+  width: 100.2%;
+  height: 150px;
+  border: solid black 3px;
+  position: absolute;
+}
+
+.role {
+  width: 101.2%;
+  height: 26px;
+  border-top: solid black 2px;
+  position: absolute;
+  top: 24%;
+  left: 0%;
+}
+
+.about {
+  position: absolute;
+  width: 33%;
+  height: 40%;
+  top: 30.5%;
+  left: 0%;
+  border: solid black 3px;
+}
+
+.project {
+  position: absolute;
+  width: 33%;
+  height: 77%;
+  left: 33.6%;
+  top: 30.5%;
+  border: solid black 3px;
+}
+
+.contact {
+  position: absolute;
+  top: 30.5%;
+  left: 67.2%;
+  width: 33%;
+  height: 55%;
+  border: solid black 3px;
+  z-index: 1;
+}
+
+/*text*/
+.name h1 {
+  font-family: 'jaapokki', sans-serif;
+  font-size: 3.5em;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  position: absolute;
+  bottom: -5%;
+  left: 3%;
+}
+
+.role h3 {
+  font-family: 'jaapokki', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  position: absolute;
+  top: -59%;
+  left: 3%;
+}
+
+.pages h3 {
+  font-family: 'jaapokki', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+
+  position: absolute;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.about h3 {
+  top: 54%;
+  left: -16%;
+}
+
+.project h3 {
+  top: 67%;
+  left: -33%;
+}
+
+.contact h3 {
+  top: 58%;
+  left: -29%;
+}
+
+
+/*hover*/
+
+.about:hover {
+  background: url('../images/space.jpg');
+}
+
+.project:hover {
+  background: url('../images/space.jpg');
+}
+
+.contact:hover {
+  background: url('../images/space.jpg');
+}
+
+
+/*social*/
+.social a {
+  width: 100px;
+}
