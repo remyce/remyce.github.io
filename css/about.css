@@ -17,44 +17,47 @@
 
 /*rectangles*/
 .menu {
+  /*border: solid black 2px;*/
   position: relative;
-  width: 25%;
+  width: 500px;
+  height: 500px;
   display: block;
 }
 
 .name {
-  position: relative;
-  border: solid black 3px;
-  width: 100.2%;
-  height: 150px;
-  right: 0.5%;
+    position: absolute;
+    border: solid black 3px;
+    width: 83%;
+    height: 150px;
+    left: -0.5%;
 }
 
 .about {
-  position: absolute;
-  border: solid black 3px;
-  width: 50%;
-  height: 40%;
-  top: 98%;
-  right: 47.5%;
+    position: absolute;
+    border: solid black 3px;
+    width: 60%;
+    height: 22%;
+    top: 30.5%;
+    left: -0.5%;
 }
 
 .project {
-  position: absolute;
-  border: solid black 3px;
-  width: 87%;
-  height: 46%;
-  left: -0.4%;
-  top: 139.5%;
+    position: absolute;
+    border: solid black 3px;
+    width: 77%;
+    height: 22%;
+    left: -0.5%;
+    top: 53.1%;
 }
 
 .contact {
-  position: absolute;
-  border: solid black 3px;
-  top: 187%;
-  width: 65%;
-  left: -0.5%;
-  z-index: 1;
+    position: absolute;
+    border: solid black 3px;
+    top: 75.7%;
+    width: 55%;
+    height: 22%;
+    left: -0.5%;
+    z-index: 1;
 }
 
 /*text*/
