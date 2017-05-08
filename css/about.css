@@ -15,59 +15,133 @@
   format('truetype');
 }
 
-/*rectangles*/
-.menu {
-  /*border: solid black 2px;*/
-  position: relative;
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');
+/*layout*/
+.container {
   width: 500px;
   height: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 4%;
+}
+
+/*page content*/
+.content {
+  /*border: solid black 2px;*/
+  float: left;
+
+  width: 500px;
+  height: 600px;
+  display: inline-block;
+}
+
+/*rectangles*/
+.menu {
+  position: relative;
+  width: 350px;
+  height: 500px;
   display: block;
+
+  float: left;
 }
 
 .name {
-    position: absolute;
-    border: solid black 3px;
-    width: 83%;
-    height: 150px;
-    left: -0.5%;
+  position: absolute;
+  border: solid black 3px;
+  width: 99%;
+  height: 105px;
+  left: -0.5%;
 }
 
 .about {
-    position: absolute;
-    border: solid black 3px;
-    width: 60%;
-    height: 22%;
-    top: 30.5%;
-    left: -0.5%;
+  position: absolute;
+  border: solid black 3px;
+  width: 60%;
+  height: 22%;
+  top: 21.5%;
+  left: -0.5%;
 }
 
 .project {
-    position: absolute;
-    border: solid black 3px;
-    width: 77%;
-    height: 22%;
-    left: -0.5%;
-    top: 53.1%;
+  position: absolute;
+  border: solid black 3px;
+  width: 77%;
+  height: 22%;
+  left: -0.5%;
+  top: 44.1%;
 }
 
 .contact {
-    position: absolute;
-    border: solid black 3px;
-    top: 75.7%;
-    width: 55%;
-    height: 22%;
-    left: -0.5%;
-    z-index: 1;
+  position: absolute;
+  border: solid black 3px;
+  top: 66.7%;
+  width: 55%;
+  height: 22%;
+  left: -0.5%;
+  z-index: 1;
 }
 
-/*text*/
+/*text headers and links*/
 .name h1 {
   font-family: 'jaapokki', sans-serif;
-  font-size: 3.5em;
+  font-size: 2.9em;
   line-height: 100%;
   text-transform: uppercase;
   letter-spacing: 20px;
   position: absolute;
-  /*bottom: -5%;
-  left: 3%;*/
+  left: 2%;
+  bottom: -30%;
+}
+
+.pages h3 {
+  font-family: 'jaapokki', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  position: absolute;
+}
+
+.about h3 {
+  top: 58%;
+      left: 47%;
+}
+
+.project h3 {
+  top: 58%;
+left: 36%;
+}
+
+.contact h3 {
+  top: 58%;
+    left: 21%;
+}
+
+/*content text*/
+
+.content {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.3em;
+  margin-left: 2px;
+  padding-left: 50px;
+  list-style: none;
+}
+
+/*list*/
+.content ul {
+  list-style: none;
+  margin-left: -35px;
+}
+
+.list {
+  margin-top: 3px;
+}
+
+.skills {
+  float: left;
+  width: 50%;
+}
+
+.like {
+  float: left;
+  margin-left: 5%;
+  padding-left: 20px;
 }
