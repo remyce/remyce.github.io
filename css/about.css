@@ -1,83 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');
-/*header*/
-.name2 {
-  width: 81.2%;
-  height: 129px;
-  border: solid black 3px;
-  margin: 0 auto;
-  top: -51px;
+@font-face {
+  font-family: 'jaapokki';
+  src: url('fonts/jaapokki.eot');
+
+  src:
+  local('Jaapokki'),
+  local('Jaapokki'),
+  url('fonts/Jaapokki.otf')
+  format('opentype');
+
+  src:
+  local('jaapokki'),
+  local('jaapokki'),
+  url('fonts/jaapokki.ttf')
+  format('truetype');
 }
 
-.name2 h1  {
+/*rectangles*/
+.menu {
+  position: relative;
+  width: 25%;
+  display: block;
+}
+
+.name {
+  position: relative;
+  border: solid black 3px;
+  width: 100.2%;
+  height: 150px;
+  right: 0.5%;
+}
+
+.about {
+  position: absolute;
+  border: solid black 3px;
+  width: 50%;
+  height: 40%;
+  top: 98%;
+  right: 47.5%;
+}
+
+.project {
+  position: absolute;
+  border: solid black 3px;
+  width: 87%;
+  height: 46%;
+  left: -0.4%;
+  top: 139.5%;
+}
+
+.contact {
+  position: absolute;
+  border: solid black 3px;
+  top: 187%;
+  width: 65%;
+  left: -0.5%;
+  z-index: 1;
+}
+
+/*text*/
+.name h1 {
   font-family: 'jaapokki', sans-serif;
   font-size: 3.5em;
   line-height: 100%;
   text-transform: uppercase;
   letter-spacing: 20px;
   position: absolute;
-  bottom: -16%;
-  left: 12%;
-}
-
-/*navigation*/
-nav {
-  width: 500px;
-  display: block;
-  position: relative;
-  margin: auto;
-}
-
-.links a {
-  font-family: 'jaapokki', sans-serif;
-  line-height: 100%;
-  text-transform: uppercase;
-  position: relative;
-  top: 10px;
-  left: 28.5%;
-    padding-right: 7px;
-}
-
-/*layout*/
-.container {
-  width: 500px;
-  height: 500px;
-  position: relative;
-  margin: auto;
-  margin-top: 4%;
-}
-
-/*body*/
-
-/*p {
-  font-family: 'Droid Serif', serif;
-}*/
-
-.container p {
-  margin-left: 8%;
-}
-
-ul {
-  list-style: none;
-}
-
-ul li {
-    margin-left: -32.5%;
-}
-
-.skills {
-  position: absolute;
-  top: 104%;
-  left: 8%;
-}
-
-.love {
-  position: absolute;
-  top: 104%;
-  left: 52%;
-}
-
-.skills, .love, ul, .container p, p{
-  font-family: 'Droid Serif', serif;
-  line-height: 1.5;
-
+  /*bottom: -5%;
+  left: 3%;*/
 }
