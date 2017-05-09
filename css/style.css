@@ -15,127 +15,131 @@
   format('truetype');
 }
 
-/*rectangles*/
-.container{
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');
+/*layout*/
+.container {
   width: 500px;
   height: 500px;
   position: relative;
-  display: block;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 4%;
+}
+
+/*page content*/
+.content {
+  float: left;
+  width: 500px;
+  height: 600px;
+  display: inline-block;
+}
+
+/*rectangles*/
+.menu {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  display: block;
+
+  float: left;
 }
 
 .name {
-  width: 100.2%;
-  height: 150px;
+  position: absolute;
   border: solid black 3px;
-  position: absolute;
-}
-
-.role {
-  width: 101.2%;
-  height: 26px;
-  border-top: solid black 2px;
-  position: absolute;
-  top: 24%;
-  left: 0%;
+  width: 99%;
+  height: 105px;
+  left: -0.5%;
 }
 
 .about {
   position: absolute;
-  width: 33%;
-  height: 40%;
-  top: 30.5%;
-  left: 0%;
   border: solid black 3px;
+  width: 60%;
+  height: 22%;
+  top: 21.5%;
+  left: -0.5%;
 }
 
 .project {
   position: absolute;
-  width: 33%;
-  height: 77%;
-  left: 33.6%;
-  top: 30.5%;
   border: solid black 3px;
+  width: 77%;
+  height: 22%;
+  left: -0.5%;
+  top: 44.1%;
 }
 
 .contact {
   position: absolute;
-  top: 30.5%;
-  left: 67.2%;
-  width: 33%;
-  height: 55%;
   border: solid black 3px;
+  top: 66.7%;
+  width: 55%;
+  height: 22%;
+  left: -0.5%;
   z-index: 1;
 }
 
-/*text*/
+/*text headers and links*/
 .name h1 {
   font-family: 'jaapokki', sans-serif;
-  font-size: 3.5em;
+  font-size: 2.9em;
   line-height: 100%;
   text-transform: uppercase;
   letter-spacing: 20px;
   position: absolute;
-  bottom: -5%;
-  left: 3%;
-}
-
-.role h3 {
-  font-family: 'jaapokki', sans-serif;
-  font-weight: lighter;
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  position: absolute;
-  top: -59%;
-  left: 3%;
+  left: 2%;
+  bottom: -30%;
 }
 
 .pages h3 {
   font-family: 'jaapokki', sans-serif;
   text-transform: uppercase;
   letter-spacing: 8px;
-
   position: absolute;
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
 }
 
 .about h3 {
-  top: 54%;
-  left: -16%;
+  top: 58%;
+      left: 47%;
 }
 
 .project h3 {
-  top: 67%;
-  left: -33%;
+  top: 58%;
+left: 36%;
 }
 
 .contact h3 {
   top: 58%;
-  left: -29%;
+    left: 21%;
 }
 
+/*content text*/
 
-/*hover*/
-
-.about:hover {
-  background: url('../images/space.jpg');
+.content {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.3em;
+  margin-left: 2px;
+  padding-left: 50px;
+  list-style: none;
 }
 
-.project:hover {
-  background: url('../images/space.jpg');
+/*list*/
+.content ul {
+  list-style: none;
+  margin-left: -35px;
 }
 
-.contact:hover {
-  background: url('../images/space.jpg');
+.list {
+  margin-top: 3px;
 }
 
+.skills {
+  float: left;
+  width: 50%;
+}
 
-/*social*/
-.social a {
-  width: 100px;
+.like {
+  float: left;
+  margin-left: 5%;
+  padding-left: 20px;
 }
