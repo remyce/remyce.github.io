@@ -28,7 +28,7 @@
 /*page content*/
 .content {
   float: left;
-  width: 500px;
+  width: 550px;
   height: 600px;
   display: inline-block;
 }
@@ -100,17 +100,17 @@
 
 .about h3 {
   top: 58%;
-      left: 47%;
+  left: 47%;
 }
 
 .project h3 {
   top: 58%;
-left: 36%;
+  left: 36%;
 }
 
 .contact h3 {
   top: 58%;
-    left: 21%;
+  left: 21%;
 }
 
 /*content text*/
@@ -140,9 +140,7 @@ left: 36%;
 
 .like {
   float: left;
-  width: 50%;
-
-
+  margin-left: 1%;
 }
 
 /*error*/
@@ -155,13 +153,13 @@ left: 36%;
 
 .error h2 {
   font-size: 50px;
-      font-family: 'jaapokki', sans-serif;
-      text-transform: uppercase;
-      display: block;
-      text-align: center;
+  font-family: 'jaapokki', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
 }
 
 #error {
   color: red;
-      margin-bottom: -108px;
+  margin-bottom: -108px;
 }
