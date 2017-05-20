@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');
+
 @font-face {
   font-family: 'jaapokki';
   src: url('fonts/jaapokki.eot');
@@ -15,7 +17,6 @@
   format('truetype');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');
 /*layout*/
 .container {
   width: 500px;
@@ -46,7 +47,7 @@
 .name {
   position: absolute;
   border: solid black 3px;
-  width: 99%;
+  width: 101%;
   height: 105px;
   left: -0.5%;
 }

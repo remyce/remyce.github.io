@@ -132,7 +132,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5) or #005;
   z-index: 10;
 }
 
@@ -164,4 +164,12 @@
   bottom: 15px;
   left: 200px;
   position: absolute;
+}
+
+/*.pages {
+    color:red;
+}*/
+
+.about a:link {
+    color:black;
 }
