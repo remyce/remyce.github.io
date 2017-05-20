@@ -72,22 +72,12 @@
 /*text*/
 .name h1 {
   font-family: 'jaapokki', sans-serif;
-  font-size: 3.5em;
+  font-size: 4.5em;
   line-height: 100%;
   text-transform: uppercase;
   letter-spacing: 20px;
   position: absolute;
-  bottom: -5%;
-  left: 3%;
-}
-
-.role h3 {
-  font-family: 'jaapokki', sans-serif;
-  font-weight: lighter;
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  position: absolute;
-  top: -59%;
+  bottom: -34.5%;
   left: 3%;
 }
 
@@ -154,7 +144,7 @@
   left: 50%;
   margin-top: -45px;
   margin-left:  -247.5px;
-  background: url('../images/waves.png');
+  background: #000;
   background-position: -199px -316px;
   border-radius: 66px;
   text-align: center;
