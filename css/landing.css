@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'jaapokki';
-  src: url('fonts/jaapokki.eot');
+  src: url('fonts/jaapokki.ttf');
 
   src:
-  local('Jaapokki'),
-  local('Jaapokki'),
-  url('fonts/Jaapokki.otf')
+  local('jaapokki'),
+  local('jaapokki'),
+  url('fonts/jaapokki.otf')
   format('opentype');
 
   src:
   local('jaapokki'),
   local('jaapokki'),
-  url('fonts/jaapokki.ttf')
+  url('fonts/jaapokki.eot')
   format('truetype');
 }
 
