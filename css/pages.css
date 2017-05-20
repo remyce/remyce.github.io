@@ -52,6 +52,10 @@
   left: -0.5%;
 }
 
+.pages {
+  background-color: red;
+}
+
 .about {
   position: absolute;
   border: solid black 3px;
@@ -97,6 +101,7 @@
   text-transform: uppercase;
   letter-spacing: 8px;
   position: absolute;
+  color: black;
 }
 
 .about h3 {
@@ -163,4 +168,8 @@
 #error {
   color: red;
   margin-bottom: -108px;
+}
+
+.about:hover {
+  background: url('../images/space.jpg');
 }
