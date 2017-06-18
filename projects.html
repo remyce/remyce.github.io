@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/pages.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <title>Remyce Savanna</title>
 </head>
 <body>
@@ -37,8 +39,35 @@
 
   </div>
 
-  <div class="content">
-  </div>
-  
+  <!-- <div class="content">
+
+  <div id="draggable" class="ui-widget-content">
+  <div>Riot</div>
+  <div>Clubmate</div>
+  <img src="../img/waves.png" alt="waves">
+</div>
+<div>Aura</div>
+</div> -->
+
+<div id="containment-wrapper" class="content">
+  <a href="http://remycesavanna.com"><img src="./images/waves.png"></a>
+  <a href="http://remycesavanna.com"><img src="./images/waves.png"></a>
+  <a href="http://remycesavanna.com"><img src="./images/waves.png"></a>
+<h1 class="hello">hello</h1>
+</div>
+
+<script>
+$( function() {
+  $( "img").draggable({ containment: "#containment-wrapper", scroll: false, snap: true, refreshPositions: true});
+  $( "h1").draggable({ containment: "#containment-wrapper", scroll: false, snap: true });
+} );
+</script>
+
+<style>
+#draggable { width: 50px; height: 50px; padding: 0.5em; }
+img { width: 150px; height: 150px; right: -49px; }
+.hello { width: 100px; height: 100px; color: #decade;}
+</style>
+
 </body>
 </html>

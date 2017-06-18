@@ -7,7 +7,7 @@
   src:
   local('Jaapokki'),
   local('Jaapokki'),
-  url('fonts/Jaapokki.otf')
+  url('fonts/jaapokki.otf')
   format('opentype');
 
   src:
@@ -27,12 +27,6 @@
 }
 
 /*page content*/
-.content {
-  float: left;
-  width: 550px;
-  height: 600px;
-  display: inline-block;
-}
 
 /*rectangles*/
 .menu {
@@ -127,6 +121,32 @@
   margin-left: 2px;
   padding-left: 50px;
   list-style: none;
+
+  float: left;
+  width: 850px;
+  height: 600px;
+  display: inline-block;
+}
+
+/*Projects*/
+#projects {
+  /*display: grid;
+  /*height: 100%;*/
+  /*grid-template-columns: 100%;*/
+  /*grid-template-rows: 100px 200px 300px;*/
+  /*grid-gap: 20px;*/
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+
+.projects div {
+  width: 150px; height: 150px;
+  background-color: blue;
+}
+
+img{
+  width: 150px; height: 150px;
 }
 
 /*list*/
