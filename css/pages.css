@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya|Droid+Serif');
-
 @font-face {
   font-family: 'jaapokki';
   src: url('fonts/jaapokki.eot');
@@ -133,32 +131,16 @@
 
 .projects div {
   width: 150px;
-  background-color: blue;
 }
 
 img{
   width: 150px;
 }
 
-/*list*/
-.content ul {
-  list-style: none;
-  margin-left: -35px;
+.content h1 {
+  font-family: 'jaapokki', sans-serif;
 }
 
-.list {
-  margin-top: 3px;
-}
-
-.skills {
-  float: left;
-  width: 50%;
-}
-
-.like {
-  float: left;
-  margin-left: 1%;
-}
 
 /*error*/
 .error h1 {
