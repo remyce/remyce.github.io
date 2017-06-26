@@ -125,22 +125,19 @@
 }
 
 /*Projects*/
-#projects {
-  width: 150px;
-}
-
-.projects div {
-  width: 150px;
-}
-
-img{
-  width: 150px;
+.projects img{
+  width: 200px;
 }
 
 .content h1 {
   font-family: 'jaapokki', sans-serif;
 }
 
+.content p{
+width: 60%;
+display: inline-block;
+line-height: 30px;
+}
 
 /*error*/
 .error h1 {
