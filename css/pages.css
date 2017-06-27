@@ -112,7 +112,6 @@
 /*content text*/
 
 .content {
-  font-family: 'Droid Serif', serif;
   font-size: 1.3em;
   margin-left: 2px;
   padding-left: 50px;
@@ -134,6 +133,7 @@
 }
 
 .content p{
+  font-family: 'Droid Serif', serif;
 width: 60%;
 display: inline-block;
 line-height: 30px;
