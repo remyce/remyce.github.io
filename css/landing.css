@@ -111,21 +111,6 @@
 }
 
 
-/*hover*/
-
-.about:hover {
-  background: url('../images/space.jpg');
-}
-
-.project:hover {
-  background: url('../images/space.jpg');
-}
-
-.contact:hover {
-  background: url('../images/space.jpg');
-}
-
-
 /*Modal*/
 .overlay {
   position: absolute;
@@ -166,10 +151,6 @@
   left: 200px;
   position: absolute;
 }
-
-/*.pages {
-    color:red;
-}*/
 
 .about a:link {
     color:black;
