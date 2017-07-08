@@ -1,13 +1,12 @@
 //draggable content board
 $( function() {
   $( "img").draggable({ containment: "#containment-wrapper", scroll: false, snap: true, refreshPositions: true});
-  // $( "h1").draggable({ containment: "#containment-wrapper", scroll: false, snap: true });
 } );
 
 
 //random position project images
 function getRandomInt (min, max) {
-    return Math.floor(Math.random() * (max - min + 5)) + min;
+    return Math.floor(Math.random() * (max - min + 2)) + min;
 }
 
 $.fn.randomOrder = function(animate) {

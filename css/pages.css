@@ -1,22 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-
-@font-face {
-  font-family: 'jaapokki';
-  src: url('fonts/jaapokki.eot');
-
-  src:
-  local('Jaapokki'),
-  local('Jaapokki'),
-  url('fonts/jaapokki.otf')
-  format('opentype');
-
-  src:
-  local('Jaapokki'),
-  local('Jaapokki'),
-  url('fonts/jaapokki.ttf')
-  format('truetype');
+@font-face
+{
+font-family: myFancyFont;
+src: url('jaapokki.ttf'),
+url('jaapokki.eot');
 }
+
 
 /*layout*/
 .container {
@@ -135,8 +123,10 @@
 /*.projects img{
   width: 2px;
 }*/
+.a .riot {
+  color: rgba(0, 0, 0, 0);
 
-
+}
 
 .content h1 {
   font-family: 'jaapokki', sans-serif;
