@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Jaapokki-Regular';
-  src: url('./fonts/jaapokki-regular.eot');
-  src: url('./fonts/jaapokki-regular.eot?#iefix') format('embedded-opentype'),
-  url('./fonts/jaapokki-regular.woff') format('woff'),
-  url('./fonts/jaapokki-regular.ttf')  format('truetype'),
-  url('./fonts/jaapokki-regular.svg#jaapokki-regular') format('svg');
+  src: url('css/jaapokki-regular.eot');
+  src: url('css/jaapokki-regular.eot?#iefix') format('embedded-opentype'),
+  url('css/jaapokki-regular.woff') format('woff'),
+  url('css/jaapokki-regular.ttf')  format('truetype'),
+  url('css/jaapokki-regular.svg#jaapokki-regular') format('svg');
 }
 
 
