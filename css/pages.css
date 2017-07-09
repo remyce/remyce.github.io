@@ -1,8 +1,10 @@
-@font-face
-{
-  font-family: jaapokki;
-  src: url('jaapokki.ttf'),
-  url('jaapokki.eot');
+@font-face {
+  font-family: 'Jaapokki-Regular';
+  src: url('/css/fonts/jaapokki-regular.eot');
+  src: url('/css/fonts/jaapokki-regular.eot?#iefix') format('embedded-opentype'),
+  url('/css/fonts/jaapokki-regular.woff') format('woff'),
+  url('/css/fonts/jaapokki-regular.ttf')  format('truetype'),
+  url('/css/fonts/jaapokki-regular.svg#jaapokki-regular') format('svg');
 }
 
 
