@@ -1,20 +1,3 @@
-@font-face {
-  font-family: 'jaapokki';
-  src: url('fonts/jaapokki.ttf');
-
-  src:
-  local('jaapokki'),
-  local('jaapokki'),
-  url('fonts/jaapokki.otf')
-  format('opentype');
-
-  src:
-  local('jaapokki'),
-  local('jaapokki'),
-  url('fonts/jaapokki.eot')
-  format('truetype');
-}
-
 /*rectangles*/
 .container{
   width: 500px;
@@ -71,7 +54,7 @@
 
 /*text*/
 .name h1 {
-  font-family: 'jaapokki', sans-serif;
+  font-family: 'Jaapokki-Regular', sans-serif;
   font-size: 4.5em;
   line-height: 100%;
   text-transform: uppercase;
@@ -138,7 +121,7 @@
 }
 
 .modal p {
-  font-family: 'jaapokki', sans-serif;
+  font-family: 'Jaapokki-Regular', sans-serif;
   text-transform: uppercase;
   color: #fff;
   font-size: 24px;
