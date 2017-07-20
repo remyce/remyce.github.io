@@ -103,9 +103,11 @@ url('css/fonts/Jaapokki-Regular.svg#Jaapokki-Regular') format('svg');
 }
 
 .copy{
-  top: 50%;
-  left: 20%;
+  position:absolute;
+  top: 90%;
   font-family: 'Space Mono', monospace;
+  width: 72%;
+    z-index: 1;
 }
 
 /*content text*/
