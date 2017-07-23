@@ -1,11 +1,12 @@
 @font-face {
-font-family: 'Jaapokki-Regular';
-src: url('fonts/Jaapokki-Regular.woff') format('woff'),
-url('fonts/Jaapokki-Regular.eot?#iefix') format('embedded-opentype'),
-url('css/fonts/Jaapokki-Regular.ttf')  format('truetype'),
-url('css/fonts/Jaapokki-Regular.otf')  format('opentype'),
-url('css/fonts/Jaapokki-Regular.svg#Jaapokki-Regular') format('svg');
+  font-family: 'Jaapokki-Regular';
+  src: url('fonts/Jaapokki-Regular.woff') format('woff'),
+  url('fonts/Jaapokki-Regular.eot?#iefix') format('embedded-opentype'),
+  url('css/fonts/Jaapokki-Regular.ttf')  format('truetype'),
+  url('css/fonts/Jaapokki-Regular.otf')  format('opentype'),
+  url('css/fonts/Jaapokki-Regular.svg#Jaapokki-Regular') format('svg');
 }
+
 
 /*rectangles*/
 .container{
@@ -135,15 +136,14 @@ url('css/fonts/Jaapokki-Regular.svg#Jaapokki-Regular') format('svg');
   color: #fff;
   font-size: 24px;
   padding: 10px;
-  padding-top: 56px;
+  padding-top: 10px;
 }
 
 .social {
-  bottom: 15px;
   left: 200px;
   position: absolute;
 }
 
 .about a:link {
-    color:black;
+  color:black;
 }
